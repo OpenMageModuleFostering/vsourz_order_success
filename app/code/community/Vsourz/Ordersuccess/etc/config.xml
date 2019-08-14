@@ -25,9 +25,14 @@
 				</rewrite>
 			</checkout>
 		</blocks>
+		<helpers>
+			<ordersuccess>
+					<class>Vsourz_Ordersuccess_Helper</class>
+			</ordersuccess>
+		</helpers>
 	</global>
 	<default>
-		<tab1>
+		<Vsourz_Ordersuccess>
 			<general>
 				<enable_extension>1</enable_extension>
 			</general>	
@@ -45,6 +50,6 @@
 			<newsletter_subscription_section>
 				<display_section>1</display_section>
 			</newsletter_subscription_section>
-		</tab1>
+		</Vsourz_Ordersuccess>
 	</default>
 </config>

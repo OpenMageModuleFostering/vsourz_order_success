@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Vsourz_Order_Success</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/MIT">Massachusetts Institute of Technology License (MITL)</license>
     <channel>community</channel>
@@ -48,9 +48,9 @@ Go To OrderSuccessPage &gt;&gt; CMS Block Section &gt;&gt; CMS Block Below Order
 Go To OrderSuccessPage &gt;&gt; Newsletter Subscription Section &gt;&gt; Display Newsletter</description>
     <notes>Extension Update</notes>
     <authors><author><name>Vsourz Digital</name><user>MAG002979323</user><email>mehul@vsourz.com</email></author></authors>
-    <date>2015-06-15</date>
-    <time>04:41:11</time>
-    <contents><target name="magecommunity"><dir name="Vsourz"><dir name="Ordersuccess"><dir name="Block"><dir name="Onepage"><file name="Success.php" hash="4769a9eaf169d3fb09c83e744e533c59"/></dir></dir><dir name="Helper"><file name="Data.php" hash="ae9a3997f28613251f34ad1e4500a8de"/></dir><dir name="etc"><file name="adminhtml.xml" hash="41036ac58e287fd25c1a7395c22689db"/><file name="config.xml" hash="59506dcff43f667294a3210f36edb8e8"/><file name="system.xml" hash="1514043788608f7cda0de9cce403bbf6"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Vsourz_Ordersuccess.xml" hash="e2c0af5054d47da0dd98561c86d49f2d"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="vsourz"><file name="ordersuccess.xml" hash="127e77f1d5f0f427d135616b932f1c6b"/></dir></dir><dir name="template"><dir name="vsourz"><file name="success.phtml" hash="663929526a4e6f4d2821603ae74dac2c"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="order-success.css" hash="78f67ce8a3d1cb95ef67659d7acf372b"/></dir><dir name="images"><file name="i_print.gif" hash="0aed138181495642e9ab29e55d194d40"/></dir></dir></dir></dir></target></contents>
+    <date>2015-06-18</date>
+    <time>08:56:53</time>
+    <contents><target name="magecommunity"><dir name="Vsourz"><dir name="Ordersuccess"><dir name="Block"><dir name="Onepage"><file name="Success.php" hash="4769a9eaf169d3fb09c83e744e533c59"/></dir></dir><dir name="Helper"><file name="Data.php" hash="ae9a3997f28613251f34ad1e4500a8de"/></dir><dir name="etc"><file name="adminhtml.xml" hash="41036ac58e287fd25c1a7395c22689db"/><file name="config.xml" hash="f1f7d7401cbb9c3ac144a803170227fa"/><file name="system.xml" hash="1514043788608f7cda0de9cce403bbf6"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Vsourz_Ordersuccess.xml" hash="e2c0af5054d47da0dd98561c86d49f2d"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="vsourz"><file name="ordersuccess.xml" hash="127e77f1d5f0f427d135616b932f1c6b"/></dir></dir><dir name="template"><dir name="vsourz"><file name="success.phtml" hash="663929526a4e6f4d2821603ae74dac2c"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="order-success.css" hash="8c1eb5cfaf9c9edf5f8d21d64d7a8372"/></dir><dir name="images"><file name="i_print.gif" hash="0aed138181495642e9ab29e55d194d40"/></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
