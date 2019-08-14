@@ -32,7 +32,7 @@
 		</helpers>
 	</global>
 	<default>
-		<Vsourz_Ordersuccess>
+		<tab1>
 			<general>
 				<enable_extension>1</enable_extension>
 			</general>	
@@ -50,6 +50,6 @@
 			<newsletter_subscription_section>
 				<display_section>1</display_section>
 			</newsletter_subscription_section>
-		</Vsourz_Ordersuccess>
+		</tab1>
 	</default>
 </config>
