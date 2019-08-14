@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<package>
+    <name>Vsourz_Order_Success</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/MIT">Massachusetts Institute of Technology License (MITL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Turn your boring Order Success Page into Interactive tool with Order details, newsletter subscription and promotional blocks.</summary>
+    <description>Improved Order Success Page will enable you to convert your default Magento Success page into interactive representation tool with Detailed order information. It allows to display promotional offers and custom messages to the user with the static block support. Admin can encourage user to subscribe to newsletter after placing an order from the success page.&#xD;
+&#xD;
+All it takes is simple 5 minutes setup: &#xD;
+&#xD;
+Step 1: Install extension from Magento Connect&#xD;
+Step 2: Goto System &gt;&gt; Configuration &gt;&gt; Vsourz Order Success Page and do required configuration&#xD;
+&#xD;
+You can explore more about it from How To Use? section&#xD;
+&#xD;
+Need Support? Click Here&#xD;
+&#xD;
+Demo Link: http://extensiondemo.vsourz.co/&#xD;
+&#xD;
+Features: &#xD;
+&#xD;
+Facility to show Detailed Order Information with product information, Tax rates, shipping rates and Discounts&#xD;
+Supports Promotional CMS Static Blocks&#xD;
+Newsletter subscribtion option available&#xD;
+Responsive Layout&#xD;
+Fully manageable from Admin&#xD;
+&#xD;
+How To Use?&#xD;
+&#xD;
+Step 1: Goto System &gt;&gt; Configuration &gt;&gt; Vsourz Order Success Page and do below admin setup:&#xD;
+&#xD;
+1) Enable/Disable order success page&#xD;
+Goto OrderSuccessPage &gt;&gt; General &gt;&gt; Enable Extension&#xD;
+&#xD;
+2) Display Order Table with product image, discount, shipping rates and tax&#xD;
+Goto OrderSuccessPage &gt;&gt; Order In	formation Section &gt;&gt; Display Order Table&#xD;
+		&#xD;
+3) Displaying CMS block above order success page&#xD;
+Goto OrderSuccessPage &gt;&gt; CMS Block Section &gt;&gt; CMS Block Above Order Information&#xD;
+		&#xD;
+4) Displaying CMS block below order success page&#xD;
+Go To OrderSuccessPage &gt;&gt; CMS Block Section &gt;&gt; CMS Block Below Order Information&#xD;
+		&#xD;
+5) Displaying newsletter subscription option&#xD;
+Go To OrderSuccessPage &gt;&gt; Newsletter Subscription Section &gt;&gt; Display Newsletter</description>
+    <notes>This is a First Release !!</notes>
+    <authors><author><name>Vsourz Digital</name><user>MAG002979323</user><email>mehul@vsourz.com</email></author></authors>
+    <date>2015-06-05</date>
+    <time>11:35:22</time>
+    <contents><target name="magecommunity"><dir name="Vsourz"><dir name="Ordersuccess"><dir name="Block"><dir name="Onepage"><file name="Success.php" hash="4769a9eaf169d3fb09c83e744e533c59"/></dir></dir><dir name="Helper"><file name="Data.php" hash="ae9a3997f28613251f34ad1e4500a8de"/></dir><dir name="etc"><file name="adminhtml.xml" hash="41036ac58e287fd25c1a7395c22689db"/><file name="config.xml" hash="59506dcff43f667294a3210f36edb8e8"/><file name="system.xml" hash="1514043788608f7cda0de9cce403bbf6"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Vsourz_Ordersuccess.xml" hash="e2c0af5054d47da0dd98561c86d49f2d"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="vsourz"><file name="ordersuccess.xml" hash="127e77f1d5f0f427d135616b932f1c6b"/></dir></dir><dir name="template"><dir name="vsourz"><file name="success.phtml" hash="663929526a4e6f4d2821603ae74dac2c"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="order-success.css" hash="78f67ce8a3d1cb95ef67659d7acf372b"/></dir><dir name="images"><file name="i_print.gif" hash="0aed138181495642e9ab29e55d194d40"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
