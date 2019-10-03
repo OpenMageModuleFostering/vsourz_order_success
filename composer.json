@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Vsourz_Order_Success",
+    "name": "OpenMageModuleFostering\/Vsourz_Order_Success",
     "type": "magento-module",
     "license": "Massachusetts-Institute-of-Technology-License-(MITL)",
     "homepage": "",
     "description": "Turn your boring Order Success Page into Interactive tool with Order details, newsletter subscription and promotional blocks.",
     "authors": [
-    {
-        "name": "Vsourz Digital",
-        "email": "mehul@vsourz.com"
-    }
-],
+        {
+            "name": "Vsourz Digital",
+            "email": "mehul@vsourz.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
